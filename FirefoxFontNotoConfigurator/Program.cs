@@ -15,6 +15,7 @@ namespace FirefoxFontNotoConfigurator
                 using (var file = File.OpenRead("fonttable.csv"))
                 {
                     var reader = new StreamReader(file);
+                    reader.ReadLine();
                     while (!reader.EndOfStream)
                     {
                         var line = reader.ReadLine();
