@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace FirefoxFontNotoConfigurator
 {
     internal static class Program
     {
-        private static void Main()
+        private static async Task Main()
         {
             try
             {
@@ -15,10 +16,10 @@ namespace FirefoxFontNotoConfigurator
                 using (var file = File.OpenRead("fonttable.csv"))
                 {
                     var reader = new StreamReader(file);
-                    reader.ReadLine();
+                    await reader.ReadLineAsync();
                     while (!reader.EndOfStream)
                     {
-                        var line = reader.ReadLine();
+                        var line = await reader.ReadLineAsync();
                         var splitLine = line.Split(",");
                         var entry = new FontTable
                         {
@@ -35,7 +36,7 @@ namespace FirefoxFontNotoConfigurator
                 using (var file = File.OpenRead("prefs.js"))
                 {
                     var reader = new StreamReader(file);
-                    config = reader.ReadToEnd();
+                    config = await reader.ReadToEndAsync();
                 }
 
                 using (var file = File.Create("prefs.js"))
@@ -52,8 +53,8 @@ namespace FirefoxFontNotoConfigurator
                     }
 
                     var writer = new StreamWriter(file) {AutoFlush = true};
-                    writer.Write("\n");
-                    writer.Write(config);
+                    await writer.WriteAsync("\n");
+                    await writer.WriteAsync(config);
                 }
             }
             catch (Exception e)
