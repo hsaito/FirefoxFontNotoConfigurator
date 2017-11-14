@@ -11,9 +11,9 @@
     <Copyright>Copyright (c) 2017 Hideki Saito</Copyright>
     <PackageLicenseUrl>https://github.com/hsaito/FirefoxFontNotoConfigurator/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/hsaito/FirefoxFontNotoConfigurator</PackageProjectUrl>
-    <Version>1.0.0.0</Version>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.1.0</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
     <RuntimeIdentifiers>linux-x64,win-x86,osx-x64</RuntimeIdentifiers>
   </PropertyGroup>
   <ItemGroup>
