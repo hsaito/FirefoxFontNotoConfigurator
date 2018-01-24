@@ -1,9 +1,9 @@
 ﻿Region,Serif,Sans-Serif,Monospace
 ar,Noto Naskh Arabic,Noto Kufi Arabic,Noto Mono
 el,Noto Serif,Noto Sans,Noto Mono
-ethi,Noto Serif,Noto Sans Ethiopic,Noto Mono
-geor,Noto Serif,Noto Sans Georgian,Noto Mono
-he,Noto Serif Hebrew,Noto Sans Hebrew,Noto Mono
+x-ethi,Noto Serif,Noto Sans Ethiopic,Noto Mono
+x-geor,Noto Serif,Noto Sans Georgian,Noto Mono
+he,Noto Serif,Noto Sans Hebrew,Noto Mono
 ja,Noto Serif CJK JP,Noto Sans CJK JP,Noto Sans Mono CJK JP
 ko,Noto Serif CJK KR,Noto Sans CJK KR,Noto Sans Mono CJK KR
 th,Noto Serif Thai,Noto Sans Thai,Noto Mono
