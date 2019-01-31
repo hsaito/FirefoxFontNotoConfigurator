@@ -1,7 +1,7 @@
 language: csharp
 solution: FirefoxFontNotoConfigurator.sln
 mono: none
-dotnet: 2.1.4
+dotnet: 2.1.500
 script:
  - dotnet restore
  - dotnet build
