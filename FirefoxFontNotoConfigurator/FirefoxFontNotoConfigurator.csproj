@@ -11,22 +11,25 @@
     <Copyright>Copyright (c) 2018 Hideki Saito</Copyright>
     <PackageLicenseUrl>https://github.com/hsaito/FirefoxFontNotoConfigurator/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/hsaito/FirefoxFontNotoConfigurator</PackageProjectUrl>
-    <Version>1.0.4.0</Version>
-    <AssemblyVersion>1.0.4.0</AssemblyVersion>
-    <FileVersion>1.0.4.0</FileVersion>
+    <Version>1.0.5.0</Version>
+    <AssemblyVersion>1.0.5.0</AssemblyVersion>
+    <FileVersion>1.0.5.0</FileVersion>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="../README.md">
       <Link>README.md</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
     </Content>
     <Content Include="fonttable.csv">
       <Link>fonttable.csv</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
     </Content>
     <Content Include="../LICENSE">
       <Link>LICENSE</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
     </Content>
   </ItemGroup>
 </Project>
