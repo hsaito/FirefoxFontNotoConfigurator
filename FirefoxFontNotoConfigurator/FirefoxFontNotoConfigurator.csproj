@@ -1,33 +1,35 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
     <LangVersion>7.1</LangVersion>
     <Authors>Hideki Saito</Authors>
     <Company>Hideki Saito</Company>
     <Product>Hideki Saito</Product>
     <PackageId>FirefoxFontNotoConfigurator</PackageId>
     <Description>Modify Firefox preferences to use Noto Fonts.</Description>
-    <Copyright>Copyright (c) 2017 Hideki Saito</Copyright>
+    <Copyright>Copyright (c) 2018 Hideki Saito</Copyright>
     <PackageLicenseUrl>https://github.com/hsaito/FirefoxFontNotoConfigurator/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/hsaito/FirefoxFontNotoConfigurator</PackageProjectUrl>
-    <Version>1.0.3.0</Version>
-    <AssemblyVersion>1.0.3.0</AssemblyVersion>
-    <FileVersion>1.0.3.0</FileVersion>
-    <RuntimeIdentifiers>linux-x64,win-x86,osx-x64</RuntimeIdentifiers>
+    <Version>1.0.5.0</Version>
+    <AssemblyVersion>1.0.5.0</AssemblyVersion>
+    <FileVersion>1.0.5.0</FileVersion>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="../README.md">
       <Link>README.md</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
     </Content>
     <Content Include="fonttable.csv">
       <Link>fonttable.csv</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
     </Content>
     <Content Include="../LICENSE">
       <Link>LICENSE</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
     </Content>
   </ItemGroup>
 </Project>

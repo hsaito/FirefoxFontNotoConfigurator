@@ -1,9 +1,9 @@
 ﻿Region,Serif,Sans-Serif,Monospace
 ar,Noto Naskh Arabic,Noto Kufi Arabic,Noto Mono
 el,Noto Serif,Noto Sans,Noto Mono
-x-ethi,Noto Serif,Noto Sans Ethiopic,Noto Mono
-x-geor,Noto Serif,Noto Sans Georgian,Noto Mono
-he,Noto Serif,Noto Sans Hebrew,Noto Mono
+x-ethi,Noto Serif Ethiopic,Noto Sans Ethiopic,Noto Mono
+x-geor,Noto Serif Georgian,Noto Sans Georgian,Noto Mono
+he,Noto Serif Hebrew,Noto Sans Hebrew,Noto Mono
 ja,Noto Serif CJK JP,Noto Sans CJK JP,Noto Sans Mono CJK JP
 ko,Noto Serif CJK KR,Noto Sans CJK KR,Noto Sans Mono CJK KR
 th,Noto Serif Thai,Noto Sans Thai,Noto Mono
@@ -12,8 +12,6 @@ x-beng,Noto Serif Bengali,Noto Sans Bengali,Noto Mono
 x-cans,Noto Serif,Noto Sans Canadian Aboriginal,Noto Mono
 x-cyrillic,Noto Serif,Noto Sans,Noto Mono
 x-devanagari,Noto Serif Devanagari,Noto Sans Devanagari,Noto Mono
-x-ethi,Noto Serif,Noto Sans,Noto Mono
-x-geor,Noto Serif,Noto Sans,Noto Mono
 x-gujr,Noto Serif Gujarati,Noto Sans Gujarati,Noto Mono
 x-guru,Noto Serif,Noto Sans Gurmukhi,Noto Mono
 x-khmr,Noto Serif Khmer,Noto Sans Khmer,Noto Mono
@@ -21,7 +19,7 @@ x-knda,Noto Serif Kannada,Noto Sans Kannada,Noto Mono
 x-math,Noto Serif,Noto Sans,Noto Mono
 x-mlym,Noto Serif Malayalam,Noto Sans Malayalam,Noto Mono
 x-orya,Noto Serif,Noto Sans Oriya,Noto Mono
-x-sinh,Noto Serif,Noto Sans Sinhala,Noto Mono
+x-sinh,Noto Serif Sinhala,Noto Sans Sinhala,Noto Mono
 x-tamil,Noto Serif Tamil,Noto Sans Tamil,Noto Mono
 x-telu,Noto Serif Telugu,Noto Sans Telugu,Noto Mono
 x-tibt,Noto Serif,Noto Sans Tibetan,Noto Mono
