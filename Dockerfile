@@ -7,8 +7,3 @@ COPY . .
 
 WORKDIR /source
 RUN dotnet publish -c Release -o /app
-
-FROM mcr.microsoft.com/dotnet/core/runtime:latest
-WORKDIR /app
-COPY --from=build /app .
-ENTRYPOINT ["dotnet", "FirefoxFontNotoConfigurator.dll"]
